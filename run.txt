@@ -1,0 +1,8 @@
+eeg api
+cd "d:\project 1\eeg_api"
+.\venv312\Scripts\python.exe app.py
+
+frontend
+cd "d:\project 1\project"
+npm run dev
+
