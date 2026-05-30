@@ -1,6 +1,5 @@
 # Node
 node_modules/
-package-lock.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -13,18 +12,12 @@ dist/
 # Logs
 logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
 
 # Runtime data
 pids/
 *.pid
 *.seed
 *.pid.lock
-
-# Dependency directories
-node_modules/
 
 # Coverage
 coverage/
@@ -38,13 +31,26 @@ coverage/
 *.sln
 *.sw?
 
+# Virtual environments (do not upload — reinstall from requirements.txt)
+venv/
+venv312/
+venv38/
+env/
+ENV/
+.venv/
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
 
 # Misc
 .DS_Store
+Thumbs.db
 .env
 .env.local
 .env.*.local
@@ -53,13 +59,9 @@ __pycache__/
 supabase/.cache/
 
 # Build output
-dist/
 build/
 
-# Mac
-*.DS_Store
-
-# Generated files
+# Generated archives
 *.tgz
 *.zip
 *.tar.gz
