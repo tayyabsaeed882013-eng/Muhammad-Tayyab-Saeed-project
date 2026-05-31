@@ -1,0 +1,65 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite
+dist/
+.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Coverage
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.*.local
+
+# Supabase
+supabase/.cache/
+
+# Build output
+dist/
+build/
+
+# Mac
+*.DS_Store
+
+# Generated files
+*.tgz
+*.zip
+*.tar.gz
