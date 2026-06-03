@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Flask API",
+      "type": "python",
+      "request": "launch",
+      "module": "flask",
+      "env": {
+        "FLASK_APP": "eeg_api/app.py",
+        "FLASK_ENV": "development",
+        "PYTHONPATH": "${workspaceFolder}/eeg_api:${workspaceFolder}"
+      },
+      "args": ["run", "--host", "127.0.0.1", "--port", "5000"],
+      "jinja": true,
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

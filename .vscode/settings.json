@@ -1,0 +1,52 @@
+{
+  "git.ignoreLimitWarning": true,
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.linting.enabled": false,
+  "python.linting.pylintEnabled": false,
+  "python.formatting.provider": "none",
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.languageServer": "Pylance",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/.venv/Lib/site-packages",
+    "${workspaceFolder}/eeg_api",
+    "${workspaceFolder}/project/server"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.logLevel": "Information",
+  "python.analysis.stubPath": "${workspaceFolder}/.venv/Lib/site-packages",
+  "python.testing.pytestEnabled": false,
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/.venv/Lib/site-packages"
+  ],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/venv": true,
+    "**/venv312": true,
+    "**/venv38": true,
+    "**/.venv": true,
+    "**/env": true,
+    "**/ENV": true,
+    "**/*.egg-info": true
+  },
+  "search.exclude": {
+    "**/venv": true,
+    "**/venv312": true,
+    "**/venv38": true,
+    "**/.venv": true,
+    "**/env": true,
+    "**/ENV": true,
+    "**/__pycache__": true,
+    "**/node_modules": true
+  },
+  "[python]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+    "editor.rulers": [88, 120]
+  },
+  "extensions.ignoreRecommendations": true,
+  "ms-dotnettools.vscode-dotnet-runtime.installTimeoutSeconds": 0,
+  "extensions.experimental.affinity": {
+    "ms-dotnettools.vscode-dotnet-modernize": "-"
+  }
+}
