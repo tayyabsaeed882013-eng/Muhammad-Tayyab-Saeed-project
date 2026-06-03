@@ -11,10 +11,12 @@
     "${workspaceFolder}/eeg_api",
     "${workspaceFolder}/project/server"
   ],
-  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.typeCheckingMode": "off",
   "python.analysis.diagnosticMode": "workspace",
-  "python.analysis.logLevel": "Information",
+  "python.analysis.logLevel": "Warning",
+  "python.analysis.ignoreExternal": true,
   "python.analysis.stubPath": "${workspaceFolder}/.venv/Lib/site-packages",
+  "pylance.analysis.typeCheckingMode": "off",
   "python.testing.pytestEnabled": false,
   "python.autoComplete.extraPaths": [
     "${workspaceFolder}/.venv/Lib/site-packages"
