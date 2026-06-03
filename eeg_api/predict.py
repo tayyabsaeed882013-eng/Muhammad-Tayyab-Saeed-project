@@ -9,8 +9,8 @@ import joblib
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-import tensorflow.keras.backend as K
-from tensorflow.keras.losses import categorical_crossentropy
+import tensorflow.keras.backend as K  # type: ignore
+from tensorflow.keras.losses import categorical_crossentropy  # type: ignore
 import os
 import time  # Added for performance timing
 from sklearn.preprocessing import StandardScaler
